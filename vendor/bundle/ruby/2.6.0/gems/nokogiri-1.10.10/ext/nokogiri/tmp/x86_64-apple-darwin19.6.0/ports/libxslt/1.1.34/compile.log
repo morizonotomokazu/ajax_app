@@ -1,0 +1,31 @@
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in libxslt
+  CC       attrvt.lo
+  CC       xslt.lo
+  CC       xsltlocale.lo
+  CC       xsltutils.lo
+  CC       pattern.lo
+  CC       templates.lo
+  CC       variables.lo
+  CC       keys.lo
+  CC       numbers.lo
+  CC       extensions.lo
+  CC       extra.lo
+  CC       functions.lo
+  CC       namespaces.lo
+  CC       imports.lo
+  CC       attributes.lo
+  CC       documents.lo
+  CC       preproc.lo
+  CC       transform.lo
+  CC       security.lo
+  CCLD     libxslt.la
+Making all in libexslt
+  CC       exslt.lo
+  CC       common.lo
+  CC       crypto.lo
+  CC       math.lo
+  CC       sets.lo
+make[2]: *** [sets.lo] Interrupt: 2
+make[1]: *** [all-recursive] Interrupt: 2
+make: *** [all] Interrupt: 2
